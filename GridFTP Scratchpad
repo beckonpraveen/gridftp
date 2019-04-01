@@ -1,0 +1,32 @@
+ec2-18-222-131-5.us-east-2.compute.amazonaws.com
+
+ec2-18-223-16-177.us-east-2.compute.amazonaws.com
+
+ 16-177 - /O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-44-81.us-east-2.compute.internal/CN=Globus Simple CA
+
+ 131-5 - /O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-31-166.us-east-2.compute.internal/CN=Globus Simple CA
+
+ grid-mapfile-add-entry -dn "/O=Grid/OU=GlobusTest/OU=simpleCA-elephant.globus.org/OU=local/CN=QuickStart User" -ln quser
+
+ grid-mapfile-add-entry -dn "/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-44-81.us-east-2.compute.internal/OU=Globus Simple CA/CN=QuickStart User" -ln quser
+
+ grid-mapfile-add-entry -dn "/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-31-166.us-east-2.compute.internal/OU=Globus Simple CA/CN=QuickStart User" -ln quser
+
+
+/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-44-81.us-east-2.compute.internal/OU=Globus Simple CA/CN=Default User
+/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-31-166.us-east-2.compute.internal/OU=Globus Simple CA/CN=Default User
+
+
+grid-mapfile-add-entry -dn "/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-44-81.us-east-2.compute.internal/OU=Globus Simple CA/CN=Default User" -ln ubuntu
+
+grid-mapfile-add-entry -dn "/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-31-166.us-east-2.compute.internal/OU=Globus Simple CA/CN=Default User" -ln ubuntu
+
+MYPROXY_SERVER=simpleCA-ip-172-31-44-81.us-east-2.compute.internal
+
+/O=Grid/OU=GlobusTest/OU=simpleCA-ip-172-31-35-246.us-east-2.compute.internal/OU=Globus Simple CA/CN=QuickStart User
+myproxy-logon -s
+
+1st Machine:
+ec2-18-217-229-21.us-east-2.compute.amazonaws.com
+
+2nd Machine:
